@@ -1,0 +1,54 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "https://img.alicdn.com/imgextra/i4/17157061/O1CN015zM0FA221zELNbQbB_!!17157061.png",
+				"selectedIconPath": "https://img.alicdn.com/imgextra/i2/17157061/O1CN01h8jzee221zEN9Ku9M_!!17157061.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "https://img.alicdn.com/imgextra/i2/17157061/O1CN01EEWofU221zLm7dRMj_!!17157061.png",
+				"selectedIconPath": "https://img.alicdn.com/imgextra/i3/17157061/O1CN01DiYtfy221zLoxV0yM_!!17157061.png",
+				"text": "页面1"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "https://img.alicdn.com/imgextra/i3/17157061/O1CN01DRE4qK221zEIl7UZJ_!!17157061.png",
+				"selectedIconPath": "https://img.alicdn.com/imgextra/i2/17157061/O1CN01pxEW8m221zELNd6Y6_!!17157061.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
